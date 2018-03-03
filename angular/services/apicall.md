@@ -1,6 +1,6 @@
 # Angular ApiCall service
 
-This Angular service can be usefull for ajax calls. You should use promises to be good, but this methods (with callback functions) work too.
+This Angular service can be usefull for ajax calls. You should use promises to be good, but these methods (with callback functions) work too.
 
 ## Code
 
