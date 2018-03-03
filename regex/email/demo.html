@@ -1,0 +1,18 @@
+
+<input type="email" id="regexValidationDemoField" value="email@address.com" />
+<input type="button" value="validate" onclick="(function() {
+
+	var e = document.getElementById('regexValidationDemoField').value,
+		regex = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+
+	if(regex.test(e)) {
+
+		alert('Yes! It\'s a valid e-mail address!');
+
+	} else {
+
+		alert('Bummer... this ain\'t a valid email address...');
+
+	}
+
+}())" />

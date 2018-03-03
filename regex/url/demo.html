@@ -1,0 +1,18 @@
+
+<input type="text" id="regexValidationDemoField" value="http://thesedays.com" />
+<input type="button" value="validate" onclick="(function() {
+
+	var e = document.getElementById('regexValidationDemoField').value,
+		regex = /([--:\w?@%&+~#=]*\.[a-z]{2,4}\/{0,2})((?:[?&](?:\w+)=(?:\w+))+|[--:\w?@%&+~#=]+)?/;
+
+	if(regex.test(e)) {
+
+		alert('Yes! It\'s a valid URL!');
+
+	} else {
+
+		alert('Bummer... this ain\'t a valid URL...');
+
+	}
+
+}())" />

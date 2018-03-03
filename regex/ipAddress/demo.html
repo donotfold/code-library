@@ -1,0 +1,18 @@
+
+<input type="text" id="regexValidationDemoField" value="1.0.0.1" />
+<input type="button" value="validate" onclick="(function() {
+
+	var e = document.getElementById('regexValidationDemoField').value,
+		regex = /^(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$/;
+
+	if(regex.test(e)) {
+
+		alert('Yes! It\'s a valid IP address!');
+
+	} else {
+
+		alert('Bummer... this ain\'t a valid IP address...');
+
+	}
+
+}())" />
