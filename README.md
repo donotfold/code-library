@@ -13,8 +13,8 @@ Working with Angular? You might want to check these pipes or services.
 
 ## CSS
 Some CSS hacks or tools:
-[Peekaboo scroll](https://github.com/donotfold/code-library/tree/master/css/peekABooScroll)
-[Highlight selected text](https://github.com/donotfold/code-library/tree/master/css/selectionMarkup)
+- [Peekaboo scroll](https://github.com/donotfold/code-library/tree/master/css/peekABooScroll)
+- [Highlight selected text](https://github.com/donotfold/code-library/tree/master/css/selectionMarkup)
 
 ## HTACCESS
 A bunch of .htaccess files I use or have used in the past.
