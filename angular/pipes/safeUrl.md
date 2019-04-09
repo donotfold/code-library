@@ -17,7 +17,7 @@ You can use the pipe for for example youtube video embeds like this:
 
 	export class SafePipe implements PipeTransform {
 		constructor(private sanitizer: DomSanitizer) {}
-		transform(url) {
+		transform(url:string) {
 			return this.sanitizer.bypassSecurityTrustResourceUrl(url);
 		}
 	}
